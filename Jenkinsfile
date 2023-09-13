@@ -5,5 +5,5 @@ node ('node:16-buster-slim') {
     }
     stage('test') {
         sh './jenkins/scripts/test.sh'
-    }
+    }
 }
