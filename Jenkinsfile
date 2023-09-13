@@ -1,4 +1,4 @@
-node (port-3000) {
+node ('port-3000') {
     stage('Build') {
         sh 'npm install'
     }
