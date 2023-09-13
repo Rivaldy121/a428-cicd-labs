@@ -1,4 +1,4 @@
-node ('node:16-buster-slim') {
+node ('16-buster-slim') {
     def PORT = 3000:3000
 
     stage('Build') {
