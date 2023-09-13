@@ -1,5 +1,5 @@
 node ('16-buster-slim') {
-    def PORT = 3000:3000
+    def PORT = 3000
 
     stage('Build') {
         sh 'npm install'
