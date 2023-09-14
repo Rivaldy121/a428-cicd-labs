@@ -15,6 +15,7 @@ pipeline {
             steps {
                 sh './jenkins/scripts/test.sh'
                 sh 'echo "Hello World"'
+                sh 'echo "Rivaldy Cahya Saputra"'
             }
         }
     }
