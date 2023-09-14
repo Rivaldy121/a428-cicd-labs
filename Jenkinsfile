@@ -13,10 +13,8 @@ pipeline {
         }
         stage('Test') { 
             steps {
-                sh './jenkins/scripts/test.sh' 
-            }
-            steps {
-                sh 'echo "Hello World"' 
+                sh './jenkins/scripts/test.sh'
+                sh 'echo "Hello World"'
             }
         }
     }
